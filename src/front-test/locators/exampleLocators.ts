@@ -14,7 +14,7 @@ export const REGISTER_BUTTON = 'button[type="submit"]';
 
 // Messages / Validations
 export const SUCCESS_MESSAGE = '.alert-success';   // after successful registration
-export const GENERIC_ERROR_MESSAGE = '.invalid-feedback';
-export const ERROR_MESSAGE = '.invalid-feedback'; // generic field validation
-export const EMAIL_ERROR = '#email + .invalid-feedback';
-export const PASSWORD_ERROR = '#password + .invalid-feedback';
+export const GENERIC_ERROR_MESSAGE = '.invalid-feedback, .error, .error-message, .alert-danger, .text-danger';
+export const ERROR_MESSAGE = '.invalid-feedback, .error, .error-message, .alert-danger, .text-danger'; // generic field validation
+export const EMAIL_ERROR = '#email + .invalid-feedback, #email + .error, #email + .error-message, #email + .alert-danger, #email + .text-danger';
+export const PASSWORD_ERROR = '#password + .invalid-feedback, #password + .error, #password + .error-message, #password + .alert-danger, #password + .text-danger';
